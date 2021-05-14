@@ -4,7 +4,7 @@ import pandas as pd
 from pandas import json_normalize
 
 #Declare url and set headers and parameters
-url = 'https://restapi.surveygizmo.com/v4/survey/5888411/surveyresponse?api_token=7ae155187297949b0def7cce032e3bba08bda244ac82a1c819&api_token_secret=A9%2F.%2Foj0SuPSw'
+url = 'https://restapi.surveygizmo.com/v4/survey/5888411/surveyresponse?api_token=[my_token]&api_token_secret=[my_secret_token]'
 headers = {
 			'Content-Type': 'application/json',
 			'Cache-Control': 'no-cache'
